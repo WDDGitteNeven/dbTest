@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: location
+instructions: null
+name: Location
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  selectionLabel: 'Add a location'
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:f80f1d9a-9689-4aa1-9688-5bf4e20efc71' # Locations
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

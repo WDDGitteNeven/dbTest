@@ -1,0 +1,49 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 5ebfdea0-4852-45f6-961c-31de85495858 # Adventures
+handle: adventures
+maxAuthors: 1
+name: Adventures
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+  -
+    __assoc__:
+      -
+        - label
+        - 'Listing page'
+      -
+        - urlFormat
+        - /adventures
+      -
+        - refresh
+        - '1'
+  -
+    __assoc__:
+      -
+        - label
+        - Homepage
+      -
+        - urlFormat
+        - /
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  d9d1ae21-b5ed-442d-bc28-0e3aa8b8c39b: # Craft 5
+    enabledByDefault: true
+    hasUrls: true
+    template: adventures/_entry
+    uriFormat: 'adventures/{slug}'
+type: channel

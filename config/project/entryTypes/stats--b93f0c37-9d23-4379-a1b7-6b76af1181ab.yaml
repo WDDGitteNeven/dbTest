@@ -1,0 +1,67 @@
+color: green
+fieldLayouts:
+  9ef7535e-0c98-4df5-b963-9a653ff8ab75:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-09T11:19:52+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 592c88ec-d4a2-4444-866e-acbe53437cea
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-09T11:19:52+00:00'
+            elementCondition: null
+            fieldUid: 16080038-b7ee-465a-869e-112483ff46c0 # Simple Table
+            handle: stats
+            includeInCards: false
+            instructions: null
+            label: Stats
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 43a92626-2af7-4746-b31b-6f2e0157b7d4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: abef9235-b631-4161-ad85-9651f106687f
+        userCondition: null
+handle: stats
+hasTitleField: true
+icon: chart-line
+name: Stats
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

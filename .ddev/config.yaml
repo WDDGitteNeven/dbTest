@@ -1,4 +1,4 @@
-name: craft5-start
+name: trailquest5
 type: craftcms
 docroot: web
 php_version: "8.2"
@@ -7,15 +7,14 @@ xdebug_enabled: false
 additional_hostnames: []
 additional_fqdns: []
 database:
-    type: mysql
-    version: "8.0"
+  type: mysql
+  version: "8.0"
 hooks:
-    post-start:
-        - exec: /var/www/html//scripts/ddev-startup.sh
+  post-start:
+    - exec: /var/www/html//scripts/ddev-startup.sh
 use_dns_when_possible: true
 composer_version: "2"
 web_environment: []
-
 # Key features of DDEV's config.yaml:
 
 # name: <projectname> # Name of the project, automatically provides

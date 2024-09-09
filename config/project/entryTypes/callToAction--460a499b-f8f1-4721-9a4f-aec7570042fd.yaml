@@ -1,0 +1,67 @@
+color: fuchsia
+fieldLayouts:
+  30701b16-ad70-4aae-8cd8-e21f0eedd554:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-06T09:16:31+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 77163896-0efe-4eda-a4d5-717ea794beb8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-06T09:16:31+00:00'
+            elementCondition: null
+            fieldUid: a62a212f-7b95-4908-8315-df40cc1a5093 # Text Link
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c42f398e-cc92-493a-a04d-5ae11e99c8f9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 7061424c-06aa-4e11-bb59-30cf11acb9fb
+        userCondition: null
+handle: callToAction
+hasTitleField: false
+icon: comment
+name: 'Call To Action'
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{entryId}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
